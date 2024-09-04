@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped
 with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -39,3 +40,6 @@ the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=
 from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+=======
+# sheria-ai-v2
+>>>>>>> 0e13084d599113bbabd9a8ea8e8e4a16d67eab7b
