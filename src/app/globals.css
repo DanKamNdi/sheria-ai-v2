@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In your global CSS file */
+/* Total width of scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Background of the scrollbar except button or thumb */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 6px;
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+}
+
+/* On hover, or active */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    background-color: #F2F0E8;
+}
