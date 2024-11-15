@@ -1,6 +1,6 @@
 "use client"
 
-import React, {useEffect, useState} from 'react';
+import React, {use, useEffect, useState} from 'react';
 import ChatInput from "@/app/components/ChatInput";
 import ChatsNavbar from "@/app/components/ChatsNavbar";
 import {UserAuth} from "@/app/context/AuthContext";
@@ -12,7 +12,8 @@ import axios from "axios";
 import {logEvent} from "firebase/analytics";
 import {Dialog} from "@headlessui/react";
 
-const ChatPage = ({params}) => {
+const ChatPage = props => {
+  const params = use(props.params);
   const {user} = UserAuth();
   const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(true);
